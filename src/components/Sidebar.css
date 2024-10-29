@@ -1,0 +1,86 @@
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: fixed;
+    width: 55px;
+    height: 50px;
+    left: 90px;
+    top: 70px;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #284B63;
+    border-radius: 30px;
+
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #fe6d73;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #1b1c1d;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: #3C6E71;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.3vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    height: 100vh; /* This is good */
+    overflow: hidden; /* Allows scrolling */
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #bee9e8;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 4em); /* Adjust height to fit within the sidebar */
+    overflow: hidden;
+    color: #bee9e8;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+    padding: 3vh; 
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#D8DBE2;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    top:0;
+  }
