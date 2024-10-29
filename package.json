@@ -1,5 +1,5 @@
 {
-  "homepage": "<taoitw>.github.io/<taoitw.github.io>,",
+  "homepage": "https://taoitw.github.io",
   "name": "portfolio_website",
   "private": true,
   "version": "0.0.0",
@@ -11,8 +11,8 @@
     "preview": "vite preview",
     "test": "jest",
     "start": "vite",
-    "predeploy": "npm run build", 
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
@@ -24,7 +24,6 @@
     "@nextui-org/accordion": "^2.0.40",
     "@nextui-org/react": "^2.4.8",
     "framer-motion": "^11.11.10",
-    "gh-pages": "^6.2.0",
     "react": "^18.3.1",
     "react-burger-menu": "^3.0.9",
     "react-dom": "^18.3.1",
@@ -41,6 +40,7 @@
     "eslint-plugin-react": "^7.37.1",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.13",
+    "gh-pages": "^6.2.0",
     "globals": "^15.11.0",
     "postcss": "^8.4.47",
     "prettier": "3.3.3",
