@@ -1,5 +1,6 @@
 import { stack as Menu } from 'react-burger-menu';
 import './Sidebar.css'
+import React from 'react'
 
 function BurgerMenu() {
   const showSettings = (event) => {

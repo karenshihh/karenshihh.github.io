@@ -4,7 +4,7 @@ import redhawk from '../assets/redhawk.jpg';
 
 const Education = () => {
     return (
-        <div id="education" className="flex flex-col items-center">
+        <div id="education" className="flex flex-col items-center w-full">
             <h2 className="text-7vh font-custom text-custom-heading mb-[10vh]">Education</h2>
             <div className="flex flex-row items-center justify-center w-3/5 mb-[10vh] ml-[2vw]">
                     <img src={redhawk} alt="redhawk logo" style={{ width: '30%', height: '10%' }} className="education-image" />
