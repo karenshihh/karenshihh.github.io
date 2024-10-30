@@ -42,12 +42,8 @@ jobs:
       - name: Build project
         run: npm run build --verbose
 
-      - name: Verify build directory
-        run: |
-          if [ ! -d "./dist" ]; then
-            echo "Error: Build directory not found!"
-            exit 1
-          fi
+      - name: List dist contents
+        run: ls -al ./dist  # This will help verify if the build succeeded
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v3
