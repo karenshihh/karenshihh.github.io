@@ -24,12 +24,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3  # No change needed here
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: '20'
           cache: 'npm'
 
       - name: Install dependencies
@@ -56,7 +56,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3  # No change needed here
 
       - name: Download build artifact
         uses: actions/download-artifact@v3
