@@ -43,7 +43,7 @@ jobs:
         run: npm run build --verbose
 
       - name: List dist contents
-        run: ls -al ./dist  # This will help verify if the build succeeded
+        run: ls -al ./dist  # Check if the build produced output
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v3
