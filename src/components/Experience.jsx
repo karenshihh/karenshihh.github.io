@@ -41,12 +41,27 @@ const content4 = (
 
 const Experience = () => {
   return (
-    <div className="experience-container p-6 m-6 font-custom">
-      <h1 className="text-6xl font-custom pb-12 text-center">Experience</h1>
-      <div className="w-full md:w-3/4 lg:w-2/3 mx-auto">
+    <div className="experience-container p-6 mt-[60vh] font-custom">
+      <style>{`
+        .nextui-accordion-item {
+          background-color: white !important;
+        }
+      `}</style>
+      <h1 className="text-[7vh] font-custom pb-12 text-center">Experience</h1>
+      <div className="!bg-white w-full md:w-3/4 lg:w-2/3 mx-auto">
         <Accordion className="bg-white space-y-4 text-lg md:text-xl p-6 border border-white rounded-lg shadow-lg">
-          <AccordionItem key="1" title={<div className="text-center">Data Entry Intern, (Docutrax)</div>}>
-            {content1}
+        <AccordionItem
+            key="1"
+            css={{
+              backgroundColor: "white",
+              color: "black",
+              border: "1px solid #fff",
+              borderRadius: "0.5rem",
+              boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
+              padding: "16px", // Optional: You can adjust padding as needed
+            }}
+            title={<div className="text-center">Data Entry Intern, (Docutrax)</div>}
+          >            {content1}
           </AccordionItem>
           <AccordionItem key="2" title={<div className="text-center">Administrative Assistant, (Telemetrics Inc.)</div>}>
             {content2}

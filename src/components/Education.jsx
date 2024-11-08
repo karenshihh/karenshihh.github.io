@@ -5,23 +5,23 @@ import redhawk from '../assets/redhawk.jpg';
 const Education = () => {
     return (
         <div id="education" className="flex flex-col items-center w-full">
-            <h2 className="text-7vh font-custom text-custom-heading mb-[10vh]">Education</h2>
+            <h2 className="text-[7vh] font-lucida mb-[10vh] mt-[60vh]">Education</h2>
             <div className="flex flex-row items-center justify-center w-3/5 mb-[10vh] ml-[2vw]">
                     <img src={redhawk} alt="redhawk logo" style={{ width: '30%', height: '10%' }} className="education-image" />
-                    <div className="text-[1.5em] ml-[3vw] font-custom text-custom-text1">
-                        <h3>Parsippany High School</h3>
-                        <p> Parsippany, New Jersey </p>
-                        <p>Graduated May 2020</p>
+                    <div className="p-4 ml-[3vw] font-custom text-custom-text1">
+                        <h3 className="text-2xl font-bold mr-12">Parsippany High School</h3>
+                        <p className="text-xl"> Parsippany, New Jersey </p>
+                        <p className="text-xl"> Graduated May 2020</p>
                 </div>
                 </div>
                 <div className="flex flex-row items-center justify-center w-3/5 mb-[10vh] ml-[2vw]">
-                <img src={bu} alt="bu logo" style={{ width: '30%', height: '10%' }} className="education-image" />
-                <div className="text-[1.5em] ml-[3vw] font-custom text-custom-text1">
-                    <h3>Boston University </h3>
-                        <p>B.A. in Economics</p>
-                        <p> Minor in Business Administration </p>
-                        <p> Boston, Massachusetts </p>
-                        <p>Graduated May 2024</p>
+                <img src={bu} alt="bu logo" style={{ width: '27%', height: '10%' }} className="education-image mr-10" />
+                <div className="ml-8 font-custom text-custom-text1">
+                    <h3 class="text-2xl font-bold">Boston University </h3>
+                    <p className="text-xl">B.A. in Economics</p>
+                    <p className="text-xl"> Minor in Business Administration </p>
+                    <p className="text-xl"> Boston, Massachusetts </p>
+                    <p className="text-xl">Graduated May 2024</p>
                     </div>
                 </div>
 

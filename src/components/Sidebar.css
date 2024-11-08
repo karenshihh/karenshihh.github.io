@@ -58,7 +58,7 @@
   
   /* Morph shape necessary with bubble or elastic */
   .bm-morph-shape {
-    fill: #bee9e8;
+    fill: #a9bcd0;
   }
   
   /* Wrapper for item list */
@@ -67,7 +67,7 @@
     flex-direction: column;
     height: calc(100vh - 4em); /* Adjust height to fit within the sidebar */
     overflow: hidden;
-    color: #bee9e8;
+    color: #a9bcd0;
   }
   
   /* Individual item */
