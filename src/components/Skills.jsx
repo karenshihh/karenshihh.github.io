@@ -3,7 +3,7 @@ import React from "react";
 const Skills = () => {
   return (
     
-    <div className="skills-container p-6 mt-20 font-custom w-full">
+    <div className="skills-container p-6 mt-20 font-custom w-full mb-[20vh]">
       <h1 className="text-6xl font-custom pb-12 text-center">Skills</h1>
       <ul className="list-disc list-inside space-y-4">
         <li className="text-xl text-center">

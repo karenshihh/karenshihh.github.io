@@ -41,7 +41,7 @@ const content4 = (
 
 const Experience = () => {
   return (
-    <div className="experience-container p-6 mt-[60vh] font-custom">
+    <div className="experience-container p-6 mt-[60vh] font-custom mb-[40vh]">
       <style>{`
         .nextui-accordion-item {
           background-color: white !important;
